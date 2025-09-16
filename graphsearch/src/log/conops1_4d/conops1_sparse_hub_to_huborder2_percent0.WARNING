@@ -1,0 +1,7 @@
+Log file created at: 2024/12/05 17:21:36
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W20241205 17:21:36.944862 139888751084736 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+W20241205 17:21:36.989482 139888751084736 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+W20241205 17:21:36.993795 139888751084736 multiagent.cpp:133] failed to generate new route

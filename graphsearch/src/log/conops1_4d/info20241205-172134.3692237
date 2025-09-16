@@ -1,0 +1,24 @@
+Log file created at: 2024/12/05 17:21:34
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20241205 17:21:34.264548 140361946969280 multiagent.cpp:28] Start ConOps1
+I20241205 17:21:34.264736 140361946969280 multiagent.cpp:29] Start route generation
+I20241205 17:21:34.286734 140361946969280 conops1.cpp:41] total cost for the sequence is 0; each are 
+I20241205 17:21:34.286773 140361946969280 conops1.cpp:111] route generation time = 7.6e-05
+I20241205 17:21:34.286783 140361946969280 multiagent.cpp:45] route generation finished
+I20241205 17:21:34.286791 140361946969280 multiagent.cpp:48] conops 1 route generation use time = 0.022259
+I20241205 17:21:34.286800 140361946969280 multiagent.cpp:51] generating route map
+I20241205 17:21:34.286809 140361946969280 multiagent.cpp:67] route map generation finished.
+I20241205 17:21:34.286816 140361946969280 multiagent.cpp:69] Start trajectory generation
+I20241205 17:21:34.286824 140361946969280 multiagent.cpp:72] start_time18015
+W20241205 17:21:34.286838 140361946969280 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20241205 17:21:34.330605 140361946969280 astar_conops1.cpp:1159] succeeded, expanded:109576
+I20241205 17:21:34.331591 140361946969280 multiagent.cpp:126] new route generated
+I20241205 17:21:34.331823 140361946969280 multiagent.cpp:72] start_time31116
+W20241205 17:21:34.331845 140361946969280 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20241205 17:21:34.336314 140361946969280 astar_conops1.cpp:1174] failed, expanded: 1
+W20241205 17:21:34.336370 140361946969280 multiagent.cpp:133] failed to generate new route
+I20241205 17:21:34.336384 140361946969280 multiagent.cpp:139] trajectory generation finished
+I20241205 17:21:34.336393 140361946969280 multiagent.cpp:142] conops 1 trajectory generation use time = 0.049601
+I20241205 17:21:34.336409 140361946969280 multiagent.cpp:144] conops 1 use time = 0.07186

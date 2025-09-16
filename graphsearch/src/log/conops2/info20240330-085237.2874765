@@ -1,0 +1,1284 @@
+Log file created at: 2024/03/30 08:52:37
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240330 08:52:37.735087 140649782256832 multiagent.cpp:164] Start ConOps2
+I20240330 08:52:37.735289 140649782256832 multiagent.cpp:165] Start route generation
+I20240330 08:52:37.739970 140649782256832 astar_conops2.cpp:959] succeeded, expanded:416
+I20240330 08:52:37.740069 140649782256832 conops2.cpp:644] route waypoint size:56, traversal cost 55, turning cost 0, climbing cost 0, space cost 0, total cost 55
+I20240330 08:52:37.740644 140649782256832 astar_conops2.cpp:959] succeeded, expanded:1031
+I20240330 08:52:37.740707 140649782256832 conops2.cpp:644] route waypoint size:79, traversal cost 78, turning cost 0, climbing cost 0, space cost 0, total cost 78
+I20240330 08:52:37.742228 140649782256832 astar_conops2.cpp:959] succeeded, expanded:4993
+I20240330 08:52:37.742321 140649782256832 conops2.cpp:644] route waypoint size:153, traversal cost 152, turning cost 0, climbing cost 0, space cost 0, total cost 152
+I20240330 08:52:37.743763 140649782256832 astar_conops2.cpp:959] succeeded, expanded:4445
+I20240330 08:52:37.743841 140649782256832 conops2.cpp:644] route waypoint size:141, traversal cost 140, turning cost 0, climbing cost 0, space cost 0, total cost 140
+I20240330 08:52:37.744380 140649782256832 astar_conops2.cpp:959] succeeded, expanded:765
+I20240330 08:52:37.744439 140649782256832 conops2.cpp:644] route waypoint size:62, traversal cost 61, turning cost 0, climbing cost 0, space cost 0, total cost 61
+I20240330 08:52:37.744531 140649782256832 conops2.cpp:29] total cost for the sequence is 486; each are 55 78 152 140 61 
+I20240330 08:52:37.744543 140649782256832 conops2.cpp:32] route generation time = 0.005128
+I20240330 08:52:37.744556 140649782256832 multiagent.cpp:178] route generation finished
+I20240330 08:52:37.744565 140649782256832 multiagent.cpp:181] conops 2 route generation use time = 0.009497
+I20240330 08:52:37.744729 140649782256832 multiagent.cpp:190] [125,135,0] [125,134,0] [125,133,0] [125,132,0] [125,131,0] [125,130,0] [125,129,0] [125,128,0] [125,127,0] [125,126,0] [125,125,0] [125,124,0] [125,123,0] [125,122,0] [125,121,0] [124,121,0] [123,121,0] [123,120,0] [122,120,0] [121,120,0] [120,120,0] [120,119,0] [120,118,0] [120,117,0] [120,116,0] [120,115,0] [120,114,0] [120,113,0] [120,112,0] [120,111,0] [120,110,0] [120,109,0] [120,108,0] [120,107,0] [120,106,0] [120,105,0] [120,104,0] [120,103,0] [120,102,0] [120,101,0] [120,100,0] [120,99,0] [119,99,0] [118,99,0] [118,98,0] [118,97,0] [118,96,0] [118,95,0] [118,94,0] [117,94,0] [116,94,0] [115,94,0] [115,93,0] [115,92,0] [114,92,0] [114,91,0] 
+I20240330 08:52:37.744859 140649782256832 multiagent.cpp:190] [125,135,0] [125,134,0] [125,133,0] [125,132,0] [125,131,0] [125,130,0] [125,129,0] [125,128,0] [125,127,0] [125,126,0] [125,125,0] [125,124,0] [125,123,0] [125,122,0] [125,121,0] [126,121,0] [126,120,0] [127,120,0] [127,119,0] [127,118,0] [127,117,0] [127,116,0] [127,115,0] [127,114,0] [127,113,0] [128,113,0] [128,112,0] [128,111,0] [128,110,0] [128,109,0] [129,109,0] [129,108,0] [129,107,0] [129,106,0] [129,105,0] [129,104,0] [129,103,0] [130,103,0] [130,102,0] [130,101,0] [130,100,0] [131,100,0] [131,99,0] [132,99,0] [132,98,0] [133,98,0] [133,97,0] [134,97,0] [134,96,0] [134,95,0] [135,95,0] [135,94,0] [135,93,0] [135,92,0] [135,91,0] [135,90,0] [136,90,0] [136,89,0] [136,88,0] [136,87,0] [136,86,0] [137,86,0] [138,86,0] [139,86,0] [140,86,0] [141,86,0] [142,86,0] [143,86,0] [144,86,0] [144,85,0] [145,85,0] [146,85,0] [146,84,0] [147,84,0] [147,83,0] [147,82,0] [148,82,0] [148,81,0] [149,81,0] 
+I20240330 08:52:37.745084 140649782256832 multiagent.cpp:190] [125,135,0] [125,134,0] [125,133,0] [125,132,0] [125,131,0] [125,130,0] [125,129,0] [125,128,0] [125,127,0] [125,126,0] [125,125,0] [125,124,0] [125,123,0] [125,122,0] [125,121,0] [124,121,0] [123,121,0] [123,120,0] [122,120,0] [121,120,0] [120,120,0] [120,119,0] [120,118,0] [120,117,0] [120,116,0] [120,115,0] [120,114,0] [120,113,0] [120,112,0] [120,111,0] [120,110,0] [120,109,0] [120,108,0] [120,107,0] [120,106,0] [120,105,0] [120,104,0] [120,103,0] [120,102,0] [120,101,0] [120,100,0] [120,99,0] [119,99,0] [118,99,0] [118,98,0] [118,97,0] [118,96,0] [118,95,0] [118,94,0] [117,94,0] [116,94,0] [115,94,0] [115,93,0] [115,92,0] [115,91,0] [115,90,0] [115,89,0] [115,88,0] [115,87,0] [115,86,0] [115,85,0] [115,84,0] [115,83,0] [115,82,0] [115,81,0] [115,80,0] [115,79,0] [114,79,0] [113,79,0] [113,78,0] [112,78,0] [111,78,0] [110,78,0] [109,78,0] [109,77,0] [108,77,0] [107,77,0] [107,76,0] [107,75,0] [107,74,0] [107,73,0] [107,72,0] [107,71,0] [107,70,0] [107,69,0] [107,68,0] [107,67,0] [107,66,0] [107,65,0] [107,64,0] [107,63,0] [107,62,0] [107,61,0] [107,60,0] [107,59,0] [107,58,0] [106,58,0] [105,58,0] [104,58,0] [104,57,0] [103,57,0] [103,56,0] [102,56,0] [101,56,0] [101,55,0] [100,55,0] [100,54,0] [99,54,0] [99,53,0] [99,52,0] [98,52,0] [98,51,0] [97,51,0] [96,51,0] [96,50,0] [96,49,0] [95,49,0] [95,48,0] [94,48,0] [93,48,0] [93,47,0] [92,47,0] [92,46,0] [92,45,0] [91,45,0] [90,45,0] [90,44,0] [89,44,0] [89,43,0] [89,42,0] [88,42,0] [87,42,0] [87,41,0] [87,40,0] [86,40,0] [85,40,0] [85,39,0] [84,39,0] [84,38,0] [83,38,0] [83,37,0] [83,36,0] [82,36,0] [81,36,0] [81,35,0] [80,35,0] [80,34,0] [79,34,0] [79,33,0] [79,32,0] [78,32,0] [77,32,0] [77,31,0] 
+I20240330 08:52:37.745314 140649782256832 multiagent.cpp:190] [125,135,0] [125,134,0] [125,133,0] [125,132,0] [125,131,0] [125,130,0] [125,129,0] [125,128,0] [125,127,0] [125,126,0] [125,125,0] [125,124,0] [125,123,0] [125,122,0] [125,121,0] [124,121,0] [123,121,0] [123,120,0] [122,120,0] [121,120,0] [120,120,0] [120,119,0] [120,118,0] [120,117,0] [120,116,0] [120,115,0] [120,114,0] [120,113,0] [120,112,0] [120,111,0] [120,110,0] [120,109,0] [120,108,0] [120,107,0] [120,106,0] [120,105,0] [120,104,0] [120,103,0] [120,102,0] [120,101,0] [120,100,0] [120,99,0] [119,99,0] [118,99,0] [118,98,0] [118,97,0] [118,96,0] [118,95,0] [118,94,0] [117,94,0] [116,94,0] [115,94,0] [115,93,0] [115,92,0] [115,91,0] [115,90,0] [115,89,0] [115,88,0] [115,87,0] [115,86,0] [115,85,0] [115,84,0] [115,83,0] [115,82,0] [114,82,0] [114,81,0] [113,81,0] [112,81,0] [112,80,0] [112,79,0] [111,79,0] [110,79,0] [110,78,0] [109,78,0] [109,77,0] [108,77,0] [107,77,0] [107,76,0] [106,76,0] [105,76,0] [104,76,0] [103,76,0] [102,76,0] [101,76,0] [100,76,0] [99,76,0] [99,75,0] [98,75,0] [97,75,0] [97,74,0] [97,73,0] [97,72,0] [97,71,0] [97,70,0] [97,69,0] [97,68,0] [97,67,0] [97,66,0] [97,65,0] [96,65,0] [96,64,0] [95,64,0] [95,63,0] [95,62,0] [94,62,0] [94,61,0] [93,61,0] [92,61,0] [92,60,0] [92,59,0] [91,59,0] [90,59,0] [90,58,0] [89,58,0] [89,57,0] [88,57,0] [88,56,0] [88,55,0] [87,55,0] [87,54,0] [86,54,0] [85,54,0] [85,53,0] [84,53,0] [84,52,0] [84,51,0] [83,51,0] [82,51,0] [82,50,0] [81,50,0] [81,49,0] [80,49,0] [80,48,0] [79,48,0] [79,47,0] [79,46,0] [78,46,0] [77,46,0] [77,45,0] [76,45,0] [76,44,0] 
+I20240330 08:52:37.745431 140649782256832 multiagent.cpp:190] [125,135,0] [126,135,0] [127,135,0] [128,135,0] [129,135,0] [130,135,0] [131,135,0] [132,135,0] [132,134,0] [133,134,0] [134,134,0] [134,133,0] [134,132,0] [135,132,0] [135,131,0] [135,130,0] [135,129,0] [136,129,0] [137,129,0] [138,129,0] [138,128,0] [139,128,0] [139,127,0] [140,127,0] [140,126,0] [141,126,0] [141,125,0] [142,125,0] [143,125,0] [144,125,0] [145,125,0] [146,125,0] [147,125,0] [148,125,0] [149,125,0] [150,125,0] [151,125,0] [151,124,0] [151,123,0] [151,122,0] [151,121,0] [152,121,0] [152,120,0] [152,119,0] [152,118,0] [152,117,0] [152,116,0] [153,116,0] [153,115,0] [153,114,0] [154,114,0] [154,113,0] [155,113,0] [155,112,0] [156,112,0] [156,111,0] [157,111,0] [157,110,0] [157,109,0] [158,109,0] [158,108,0] [159,108,0] 
+I20240330 08:52:37.745456 140649782256832 multiagent.cpp:193] Start trajectory generation
+I20240330 08:52:37.745646 140649782256832 multiagent.cpp:221] finished update the cells using planned routes
+I20240330 08:52:37.745667 140649782256832 astar_conops3.cpp:26] 13910400,75600,400,400,184,189,1,400
+I20240330 08:52:39.534633 140649782256832 astar_conops3.cpp:63] Finish init cells
+I20240330 08:52:39.537909 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 2038
+I20240330 08:52:39.537959 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:52:40.128794 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:40.616926 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:52:40.617088 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:52:40.617164 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 2328
+I20240330 08:52:40.617177 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:52:41.276841 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:41.748732 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:52:41.748922 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:52:41.748996 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 2374
+I20240330 08:52:41.749008 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:52:42.369036 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:42.876451 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:52:42.876581 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:52:42.876624 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 2571
+I20240330 08:52:42.876642 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:52:43.544823 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:44.103417 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:52:44.103578 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:52:44.103630 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 2861
+I20240330 08:52:44.103643 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:52:44.651466 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:45.169349 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:52:45.169440 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:52:45.169516 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 3067
+I20240330 08:52:45.169530 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:52:45.759336 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:46.287243 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:52:46.287427 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:52:46.287493 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 3125
+I20240330 08:52:46.287506 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:52:46.963028 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:47.483471 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:52:47.483619 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:52:47.483722 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3153
+I20240330 08:52:47.483735 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:52:48.116333 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:48.584563 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:52:48.584716 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:52:48.584770 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3226
+I20240330 08:52:48.584791 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:52:49.208795 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:49.704494 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:52:49.704655 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:52:49.704708 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 3324
+I20240330 08:52:49.704725 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:52:50.298462 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:50.825139 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:52:50.825295 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:52:50.825368 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3361
+I20240330 08:52:50.825381 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:52:51.413359 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:51.911370 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:52:51.911529 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:52:51.911590 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3427
+I20240330 08:52:51.911601 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:52:52.482779 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:52.947808 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:52:52.947936 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:52:52.947988 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 3429
+I20240330 08:52:52.947999 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:52:53.537308 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:54.089532 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:52:54.089731 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:52:54.089810 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 3460
+I20240330 08:52:54.089826 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:52:54.685802 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:55.255665 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:52:55.255795 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:52:55.255912 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 3480
+I20240330 08:52:55.255930 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:52:55.795674 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:56.341440 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:52:56.341627 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:52:56.341691 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3480
+I20240330 08:52:56.341704 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:52:56.929609 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:57.450698 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2906
+I20240330 08:52:57.450819 140649782256832 conops3.cpp:326] route waypoint size:80, traversal cost 157, turning cost 0, climbing cost 0, space cost 0, total cost 157
+I20240330 08:52:57.450870 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 3486
+I20240330 08:52:57.450883 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:52:58.041378 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:58.558513 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:52:58.558643 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:52:58.558710 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 3513
+I20240330 08:52:58.558726 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:52:59.208138 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:52:59.666924 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:52:59.667096 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:52:59.667170 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 3656
+I20240330 08:52:59.667198 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:53:00.308022 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:00.822075 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:00.822220 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:00.822272 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 3677
+I20240330 08:53:00.822289 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:53:01.465509 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:01.992334 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:01.992525 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:01.992594 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 3735
+I20240330 08:53:01.992611 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:53:02.650724 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:03.115610 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:53:03.115728 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:53:03.115840 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 3747
+I20240330 08:53:03.115859 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:03.746742 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:04.264187 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:04.264348 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:04.264414 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3769
+I20240330 08:53:04.264427 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:53:04.853243 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:05.381407 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:05.381564 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:05.381628 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3786
+I20240330 08:53:05.381640 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:53:05.971544 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:06.536987 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:06.537121 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:06.537194 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3870
+I20240330 08:53:06.537220 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:53:07.071954 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:07.593103 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:07.593272 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:07.593357 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 3887
+I20240330 08:53:07.593370 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:08.182399 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:08.693771 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:08.693887 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:08.693960 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 3895
+I20240330 08:53:08.693977 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:09.246836 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:09.809372 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:09.809525 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:09.809588 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 3904
+I20240330 08:53:09.809602 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:53:10.386029 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:10.849568 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:10.849735 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:10.849806 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 3970
+I20240330 08:53:10.849830 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:53:11.489492 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:12.010911 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:12.011037 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:12.011180 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 3976
+I20240330 08:53:12.011192 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:12.572137 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:13.128747 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:13.128867 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:13.128920 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 3980
+I20240330 08:53:13.128931 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:53:13.710941 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:14.218910 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:14.219069 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:14.219138 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 3995
+I20240330 08:53:14.219148 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:53:14.800101 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:15.317038 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:15.317158 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:15.317205 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 3996
+I20240330 08:53:15.317215 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:15.916318 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:16.462646 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:16.462762 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:16.462819 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 4034
+I20240330 08:53:16.462834 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:17.027742 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:17.529535 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:17.529662 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:17.529716 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 4036
+I20240330 08:53:17.529729 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:53:18.153777 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:18.624139 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:53:18.624263 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:53:18.624311 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4052
+I20240330 08:53:18.624348 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:19.216514 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:19.801898 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:19.802074 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:19.802146 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4056
+I20240330 08:53:19.802159 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:53:20.340813 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:20.854605 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:20.854772 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:20.854880 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4066
+I20240330 08:53:20.854913 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:21.507654 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:21.987614 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:21.987768 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:21.987831 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4076
+I20240330 08:53:21.987851 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:53:22.564690 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:23.150099 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:23.150272 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:23.150344 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4167
+I20240330 08:53:23.150369 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:53:23.729125 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:24.207261 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:24.207388 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:24.207436 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4195
+I20240330 08:53:24.207448 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:24.859265 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:25.366155 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:25.366308 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:25.366378 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4264
+I20240330 08:53:25.366411 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:53:25.870071 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:26.449148 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:26.449291 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:26.449334 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4324
+I20240330 08:53:26.449345 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:27.047386 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:27.550983 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:27.551097 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:27.551211 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4339
+I20240330 08:53:27.551228 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:28.139013 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:28.644995 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:28.645168 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:28.645250 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4350
+I20240330 08:53:28.645269 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:29.221858 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:29.690083 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:29.690254 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:29.690326 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 4378
+I20240330 08:53:29.690339 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:53:30.290564 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:30.866060 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:30.866239 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:30.866320 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 4381
+I20240330 08:53:30.866335 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:53:31.420994 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:31.907350 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:31.907477 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:31.907531 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4388
+I20240330 08:53:31.907548 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:53:32.484768 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:33.025177 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:33.025325 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:33.025397 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4413
+I20240330 08:53:33.025409 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:33.585779 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:34.107736 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:34.107884 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:34.107993 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4433
+I20240330 08:53:34.108005 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:53:34.705798 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:35.266236 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:35.266391 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:35.266462 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4443
+I20240330 08:53:35.266476 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:53:35.830559 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:36.338494 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:36.338678 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:36.338744 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4479
+I20240330 08:53:36.338768 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:36.875045 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:37.425152 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:37.425282 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:37.425336 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 4481
+I20240330 08:53:37.425353 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:38.005858 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:38.509389 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:38.509519 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:38.509577 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4501
+I20240330 08:53:38.509595 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:39.079398 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:39.624414 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:39.624540 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:39.624591 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 4534
+I20240330 08:53:39.624608 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:40.204047 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:40.660745 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:53:40.660892 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:53:40.660950 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4550
+I20240330 08:53:40.660980 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:41.253052 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:41.813199 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:41.813334 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:41.813384 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4559
+I20240330 08:53:41.813396 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:53:42.386552 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:42.898582 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:42.898748 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:42.898863 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 4570
+I20240330 08:53:42.898881 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:43.462573 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:44.006620 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:53:44.006739 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:53:44.006784 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 4576
+I20240330 08:53:44.006796 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:53:44.562128 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:45.082348 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:53:45.082458 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:53:45.082506 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 4583
+I20240330 08:53:45.082518 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:53:45.653745 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:46.180250 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:53:46.180366 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:53:46.180417 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4593
+I20240330 08:53:46.180438 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:53:46.761918 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:47.256286 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:47.256451 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:47.256518 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4653
+I20240330 08:53:47.256568 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:47.884277 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:48.375782 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:48.375981 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:48.376053 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4678
+I20240330 08:53:48.376065 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:53:48.971587 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:49.446570 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:49.446674 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:49.446729 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4710
+I20240330 08:53:49.446741 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:53:50.109333 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:50.616349 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:50.616498 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:50.616613 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 4754
+I20240330 08:53:50.616638 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:51.177358 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:51.657886 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:53:51.658021 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:53:51.658074 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4771
+I20240330 08:53:51.658087 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:53:52.292157 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:52.808548 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:53:52.808668 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:53:52.808724 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 4785
+I20240330 08:53:52.808737 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:53:53.362840 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:53.873748 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:53:53.873859 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:53:53.873908 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4839
+I20240330 08:53:53.873934 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:54.512681 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:54.979269 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:54.979446 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:54.979526 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4851
+I20240330 08:53:54.979546 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:53:55.567218 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:56.075957 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:53:56.076136 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:53:56.076216 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4853
+I20240330 08:53:56.076227 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:53:56.664425 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:57.134340 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:57.134567 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:57.134657 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 4856
+I20240330 08:53:57.134685 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:53:57.780777 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:58.292715 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:53:58.292839 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:53:58.292963 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4861
+I20240330 08:53:58.292975 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:53:58.847221 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:53:59.340538 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:53:59.340697 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:53:59.340779 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4893
+I20240330 08:53:59.340792 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:53:59.932255 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:00.468488 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:00.468660 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:00.468726 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 4894
+I20240330 08:54:00.468740 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:01.073466 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:01.583030 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:54:01.583159 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:54:01.583220 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4943
+I20240330 08:54:01.583236 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:02.170942 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:02.632080 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:02.632244 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:02.632305 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4945
+I20240330 08:54:02.632319 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:54:03.183432 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:03.757521 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:03.757705 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:03.758760 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 4947
+I20240330 08:54:03.758800 140649782256832 conops3.cpp:321] number of current trajectories 8
+I20240330 08:54:04.331032 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:04.801601 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:04.801724 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:04.801774 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 4966
+I20240330 08:54:04.801785 140649782256832 conops3.cpp:321] number of current trajectories 9
+I20240330 08:54:05.392403 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:05.912646 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:05.912827 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:05.912891 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 4992
+I20240330 08:54:05.912912 140649782256832 conops3.cpp:321] number of current trajectories 8
+I20240330 08:54:06.542082 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:07.003362 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:07.003530 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:07.003589 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5004
+I20240330 08:54:07.003617 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:07.590462 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:08.091294 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:08.091478 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:08.091557 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5023
+I20240330 08:54:08.091571 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:08.662858 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:09.241516 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:09.241681 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:09.241742 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5024
+I20240330 08:54:09.241754 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:54:09.788955 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:10.290992 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:10.291152 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:10.291267 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5029
+I20240330 08:54:10.291280 140649782256832 conops3.cpp:321] number of current trajectories 8
+I20240330 08:54:10.850951 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:11.368896 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:11.369067 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:11.369134 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5038
+I20240330 08:54:11.369152 140649782256832 conops3.cpp:321] number of current trajectories 8
+I20240330 08:54:12.021084 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:12.499809 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:12.499941 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:12.499990 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 5076
+I20240330 08:54:12.500012 140649782256832 conops3.cpp:321] number of current trajectories 9
+I20240330 08:54:13.088632 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:13.578695 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:54:13.578820 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:54:13.578892 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5079
+I20240330 08:54:13.578905 140649782256832 conops3.cpp:321] number of current trajectories 10
+I20240330 08:54:14.145008 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:14.699989 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:14.700156 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:14.700217 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5082
+I20240330 08:54:14.700228 140649782256832 conops3.cpp:321] number of current trajectories 11
+I20240330 08:54:15.258420 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:15.782265 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:15.782445 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:15.782579 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 5143
+I20240330 08:54:15.782614 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:54:16.358776 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:16.872122 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:54:16.872279 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:54:16.872335 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5161
+I20240330 08:54:16.872357 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:17.513829 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:17.978898 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:17.979094 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:17.979172 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 5179
+I20240330 08:54:17.979202 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:54:18.557695 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:19.053858 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:54:19.053996 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:54:19.054057 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5179
+I20240330 08:54:19.054068 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:54:19.650211 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:20.153870 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10243
+I20240330 08:54:20.154036 140649782256832 conops3.cpp:326] route waypoint size:142, traversal cost 281, turning cost 0, climbing cost 0, space cost 0, total cost 281
+I20240330 08:54:20.154103 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5183
+I20240330 08:54:20.154116 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:20.789960 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:21.292720 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:21.292894 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:21.292961 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5206
+I20240330 08:54:21.292973 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:54:21.815909 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:22.331575 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:22.331759 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:22.331876 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 5221
+I20240330 08:54:22.331890 140649782256832 conops3.cpp:321] number of current trajectories 8
+I20240330 08:54:22.910279 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:23.490012 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:54:23.490144 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:54:23.490204 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 5253
+I20240330 08:54:23.490235 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:54:24.064093 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:24.551551 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:54:24.551677 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:54:24.551724 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 5285
+I20240330 08:54:24.551735 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:25.129292 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:25.598461 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:54:25.598564 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:54:25.598627 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5291
+I20240330 08:54:25.598641 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:54:26.259986 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:26.786947 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:26.787108 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:26.787173 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5292
+I20240330 08:54:26.787185 140649782256832 conops3.cpp:321] number of current trajectories 8
+I20240330 08:54:27.382678 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:27.877421 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:27.877536 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:27.877583 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5309
+I20240330 08:54:27.877607 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:28.452851 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:29.000845 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:29.001013 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:29.001084 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5387
+I20240330 08:54:29.001115 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:54:29.538164 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:30.044824 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:30.044972 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:30.045028 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5403
+I20240330 08:54:30.045040 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:54:30.643548 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:31.168056 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:31.168222 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:31.168341 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 5416
+I20240330 08:54:31.168353 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:54:31.700953 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:32.203317 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:54:32.203451 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:54:32.203504 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5425
+I20240330 08:54:32.203517 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:54:32.769868 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:33.292707 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:33.292893 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:33.292973 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5436
+I20240330 08:54:33.292985 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:33.885391 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:34.406497 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:34.406618 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:34.406669 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5437
+I20240330 08:54:34.406681 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:54:34.998886 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:35.471631 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:35.471774 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:35.471831 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 5461
+I20240330 08:54:35.471856 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:36.050489 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:36.575702 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:54:36.575851 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:54:36.575908 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5500
+I20240330 08:54:36.575932 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:54:37.142806 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:37.667702 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:37.667881 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:37.667957 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5504
+I20240330 08:54:37.667970 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:54:38.263957 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:38.771275 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:38.771431 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:38.771547 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5513
+I20240330 08:54:38.771559 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:54:39.327971 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:39.836138 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:39.836299 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:39.836364 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 5541
+I20240330 08:54:39.836377 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:54:40.458712 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:40.950063 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:54:40.950187 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:54:40.950242 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5542
+I20240330 08:54:40.950254 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:41.528964 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:42.049169 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:42.049283 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:42.049339 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5619
+I20240330 08:54:42.049368 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:54:42.602590 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:43.095016 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:43.095188 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:43.095252 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 5638
+I20240330 08:54:43.095265 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:54:43.671790 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:44.212542 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:54:44.212674 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:54:44.212726 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5689
+I20240330 08:54:44.212754 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:54:44.789803 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:45.306935 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:45.307078 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:45.307127 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 5691
+I20240330 08:54:45.307138 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:54:45.899060 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:46.385381 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:54:46.385517 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:54:46.385642 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5701
+I20240330 08:54:46.385656 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:54:46.949014 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:47.462962 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:47.463125 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:47.463189 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5715
+I20240330 08:54:47.463201 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:54:48.074479 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:48.601756 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:48.601920 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:48.602010 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5752
+I20240330 08:54:48.602031 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:54:49.158926 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:49.666375 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:49.666534 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:49.666601 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 5763
+I20240330 08:54:49.666613 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:54:50.241435 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:50.726390 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:54:50.726503 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:54:50.726556 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5794
+I20240330 08:54:50.726579 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:54:51.369136 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:51.856384 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:51.856581 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:51.856651 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 5807
+I20240330 08:54:51.856663 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:54:52.453790 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:52.953118 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:54:52.953282 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:54:52.953404 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5816
+I20240330 08:54:52.953420 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:53.525216 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:54.031891 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:54.032045 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:54.032132 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5836
+I20240330 08:54:54.032149 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:54:54.600520 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:55.144867 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:55.144978 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:55.145024 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5839
+I20240330 08:54:55.145036 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:54:55.709678 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:56.230791 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:56.230902 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:56.230954 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5843
+I20240330 08:54:56.230966 140649782256832 conops3.cpp:321] number of current trajectories 8
+I20240330 08:54:56.800605 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:57.294116 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:54:57.294229 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:54:57.294289 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 5852
+I20240330 08:54:57.294301 140649782256832 conops3.cpp:321] number of current trajectories 9
+I20240330 08:54:57.870133 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:58.353763 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:54:58.353867 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:54:58.353911 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 5863
+I20240330 08:54:58.353932 140649782256832 conops3.cpp:321] number of current trajectories 8
+I20240330 08:54:58.978295 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:54:59.478381 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:54:59.478583 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:54:59.478691 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 5881
+I20240330 08:54:59.478704 140649782256832 conops3.cpp:321] number of current trajectories 9
+I20240330 08:55:00.068766 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:00.557469 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:00.557584 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:00.557639 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 5882
+I20240330 08:55:00.557653 140649782256832 conops3.cpp:321] number of current trajectories 10
+I20240330 08:55:01.132708 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:01.639559 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:01.639687 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:01.639740 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 5918
+I20240330 08:55:01.639768 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:55:02.216463 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:02.741559 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:02.741713 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:02.741780 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 6146
+I20240330 08:55:02.741820 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:03.317212 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:03.835671 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:03.835865 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:03.835934 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 6156
+I20240330 08:55:03.835945 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:04.392987 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:04.902864 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:04.903018 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:04.903082 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 6158
+I20240330 08:55:04.903093 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:05.491630 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:06.047971 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:06.048130 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:06.048200 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 6161
+I20240330 08:55:06.048211 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:55:06.581912 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:07.099452 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:07.099577 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:07.099688 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 6174
+I20240330 08:55:07.099700 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:55:07.687678 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:08.163396 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:08.163555 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:08.163624 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 6239
+I20240330 08:55:08.163636 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:55:08.750457 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:09.261967 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:09.262080 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:09.262131 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 6270
+I20240330 08:55:09.262147 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:55:09.900159 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:10.403524 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:10.403675 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:10.403739 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 6284
+I20240330 08:55:10.403750 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:55:10.992378 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:11.505159 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:11.505300 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:11.505349 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 6304
+I20240330 08:55:11.505379 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:55:12.060486 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:12.580493 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:12.580688 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:12.580755 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 6329
+I20240330 08:55:12.580778 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:55:13.167617 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:13.687182 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:13.687328 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:13.687411 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 6555
+I20240330 08:55:13.687440 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:14.257838 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:14.770216 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:14.770353 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:14.770463 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 6624
+I20240330 08:55:14.770477 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:15.343934 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:15.819393 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:15.819517 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:15.819582 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 6750
+I20240330 08:55:15.819596 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:16.408921 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:16.928253 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:16.928458 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:16.928531 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 6754
+I20240330 08:55:16.928544 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:17.470070 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:17.939424 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:17.939620 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:17.939689 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 6792
+I20240330 08:55:17.939702 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:18.578893 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:19.087042 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:19.087224 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:19.087297 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 6831
+I20240330 08:55:19.087311 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:55:19.671817 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:20.188715 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:20.188890 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:20.188960 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 6894
+I20240330 08:55:20.188976 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:55:20.775980 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:21.248743 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:21.248887 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:21.248948 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 7161
+I20240330 08:55:21.248979 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:21.810625 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:22.323225 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:22.323385 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:22.323523 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 7321
+I20240330 08:55:22.323538 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:22.899871 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:23.463104 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:23.463266 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:23.463350 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 7423
+I20240330 08:55:23.463362 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:24.049592 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:24.544717 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:24.544890 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:24.544966 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 9079
+I20240330 08:55:24.544987 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:25.095689 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:25.564832 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:25.565012 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:25.565066 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 9725
+I20240330 08:55:25.565079 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:26.147892 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:26.669838 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:26.669960 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:26.670026 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 9888
+I20240330 08:55:26.670040 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:27.256235 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:27.815298 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:27.815415 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:27.815478 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 9991
+I20240330 08:55:27.815492 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:28.392887 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:28.863895 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:28.864084 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:28.864996 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 10019
+I20240330 08:55:28.865036 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:29.422218 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:29.918991 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:29.919124 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:29.919174 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 10047
+I20240330 08:55:29.919203 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:30.516881 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:31.034995 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:31.035107 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:31.035175 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 10324
+I20240330 08:55:31.035202 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:31.583779 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:32.082612 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:32.082807 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:32.082875 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 10389
+I20240330 08:55:32.082887 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:32.695419 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:33.177209 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:33.177322 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:33.177391 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 10402
+I20240330 08:55:33.177404 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:33.745021 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:34.267499 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:34.267624 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:34.267696 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 10433
+I20240330 08:55:34.267708 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:55:34.861893 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:35.335032 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:35.335147 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:35.335192 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 10473
+I20240330 08:55:35.335230 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:35.914359 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:36.400846 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:36.400982 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:36.401050 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 10516
+I20240330 08:55:36.401073 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:37.019997 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:37.531580 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:37.531708 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:37.531772 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 10521
+I20240330 08:55:37.531784 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:38.127931 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:38.648246 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:38.648402 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:38.648536 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 10537
+I20240330 08:55:38.648552 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:39.197533 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:39.699693 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:39.699819 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:39.699886 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 10582
+I20240330 08:55:39.699903 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:40.241174 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:40.729824 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:40.729965 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:40.730035 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 10654
+I20240330 08:55:40.730053 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:41.290979 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:41.872765 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:41.872891 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:41.872960 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 10657
+I20240330 08:55:41.872973 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:42.444397 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:42.936502 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:42.936610 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:42.936659 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 10804
+I20240330 08:55:42.936681 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:43.507789 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:44.008637 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:44.008821 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:44.008885 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 10932
+I20240330 08:55:44.008906 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:44.543930 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:45.044552 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:45.044697 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:45.044770 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 10967
+I20240330 08:55:45.044789 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:45.641593 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:46.196040 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:46.196204 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:46.196285 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 11160
+I20240330 08:55:46.196304 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:55:46.768662 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:47.259002 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:55:47.259126 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:55:47.259234 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 11201
+I20240330 08:55:47.259247 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:47.821942 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:48.327950 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:48.328070 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:48.328146 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 11224
+I20240330 08:55:48.328163 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:55:48.905777 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:49.422665 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:49.422809 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:49.422865 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 11259
+I20240330 08:55:49.422877 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:49.989786 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:50.518945 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:50.519125 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:50.519191 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11297
+I20240330 08:55:50.519207 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:51.120415 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:51.607118 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:51.607288 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:51.607371 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11326
+I20240330 08:55:51.607389 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:52.203618 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:52.708651 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:52.708826 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:52.708903 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11345
+I20240330 08:55:52.708917 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:55:53.295325 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:53.789250 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:53.789417 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:53.789534 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 11380
+I20240330 08:55:53.789548 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:55:54.364090 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:54.860952 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:55:54.861068 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:55:54.861130 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 11402
+I20240330 08:55:54.861144 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:55:55.482420 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:56.007034 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:56.007178 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:56.007237 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11469
+I20240330 08:55:56.007276 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:56.579383 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:57.079630 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:55:57.079815 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:55:57.079889 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 11478
+I20240330 08:55:57.079903 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:55:57.650984 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:58.147912 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:55:58.148038 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:55:58.148104 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 11519
+I20240330 08:55:58.148126 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:58.725215 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:55:59.200381 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:55:59.200575 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:55:59.200650 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 11609
+I20240330 08:55:59.200668 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:55:59.868054 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:00.343499 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:00.343653 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:00.343705 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 11617
+I20240330 08:56:00.343722 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:00.914091 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:01.415603 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:01.415733 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:01.415833 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11627
+I20240330 08:56:01.415846 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:02.003344 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:02.496892 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:02.497042 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:02.497122 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 11628
+I20240330 08:56:02.497134 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:56:03.054431 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:03.570524 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:03.570643 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:03.570707 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 11644
+I20240330 08:56:03.570720 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:56:04.146436 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:04.690224 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:56:04.690354 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:56:04.690405 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 11656
+I20240330 08:56:04.690417 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:56:05.273846 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:05.788241 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:05.788382 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:05.788455 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 11702
+I20240330 08:56:05.788485 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:06.331949 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:06.850475 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:06.850619 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:06.850672 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 11729
+I20240330 08:56:06.850686 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:07.439181 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:07.934233 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:07.934410 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:07.934480 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11756
+I20240330 08:56:07.934496 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:08.481253 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:09.040134 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:09.040334 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:09.040457 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 11762
+I20240330 08:56:09.040483 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:56:09.626695 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:10.084365 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:56:10.084511 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:56:10.084594 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11791
+I20240330 08:56:10.084617 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:10.675598 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:11.192890 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:11.193073 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:11.193136 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 11837
+I20240330 08:56:11.193151 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:11.761732 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:12.263330 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:12.263499 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:12.263564 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 11856
+I20240330 08:56:12.263575 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:56:12.850875 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:13.368790 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:13.368973 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:13.369045 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 11857
+I20240330 08:56:13.369057 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:56:13.891745 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:14.453529 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:14.453672 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:14.453742 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11868
+I20240330 08:56:14.453756 140649782256832 conops3.cpp:321] number of current trajectories 6
+I20240330 08:56:15.041530 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:15.544222 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:15.544405 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:15.544545 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11880
+I20240330 08:56:15.544558 140649782256832 conops3.cpp:321] number of current trajectories 7
+I20240330 08:56:16.114321 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:16.632962 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:16.633153 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:16.633226 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 11913
+I20240330 08:56:16.633256 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:56:17.205109 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:17.665189 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:17.665405 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:17.665471 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 11998
+I20240330 08:56:17.665518 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:56:18.254532 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:18.827851 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:18.828038 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:18.828111 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 12021
+I20240330 08:56:18.828138 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:19.406843 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:19.905669 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:19.905809 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:19.905865 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 12053
+I20240330 08:56:19.905878 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:20.493628 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:20.966954 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:20.967128 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:20.967202 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 12132
+I20240330 08:56:20.967223 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:21.508991 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:22.028732 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:22.028929 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:22.029054 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 12155
+I20240330 08:56:22.029079 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:22.608447 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:23.175869 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:56:23.176000 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:56:23.176051 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 12243
+I20240330 08:56:23.176071 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:56:23.747959 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:24.258910 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:24.259040 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:24.259103 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 12257
+I20240330 08:56:24.259115 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:24.821834 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:25.270368 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:25.270537 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:25.270627 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 12289
+I20240330 08:56:25.270647 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:25.859206 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:26.368818 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:26.368954 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:26.369003 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 12292
+I20240330 08:56:26.369015 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:26.965046 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:27.446148 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:27.446282 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:27.446332 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 12299
+I20240330 08:56:27.446350 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:28.100590 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:28.605658 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:28.605827 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:28.605899 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 12337
+I20240330 08:56:28.605912 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:56:29.155736 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:29.643631 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:29.643751 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:29.643861 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 12377
+I20240330 08:56:29.643880 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:30.234107 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:30.757966 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:30.758092 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:30.758150 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 12444
+I20240330 08:56:30.758183 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:56:31.330759 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:31.818428 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:31.818570 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:31.818634 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 12505
+I20240330 08:56:31.818652 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:56:32.455100 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:32.954245 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:32.954409 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:32.954483 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 12530
+I20240330 08:56:32.954496 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:56:33.504732 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:34.033246 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:34.033438 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:34.033526 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 12595
+I20240330 08:56:34.033540 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:34.626602 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:35.110775 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:35.110917 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:35.111000 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 12604
+I20240330 08:56:35.111013 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:35.674712 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:36.167977 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:36.168198 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:36.168315 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 12604
+I20240330 08:56:36.168329 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:56:36.743758 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:37.286463 140649782256832 astar_conops3.cpp:372] succeeded, expanded:912
+I20240330 08:56:37.286588 140649782256832 conops3.cpp:326] route waypoint size:57, traversal cost 111, turning cost 0, climbing cost 0, space cost 0, total cost 111
+I20240330 08:56:37.286646 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 12676
+I20240330 08:56:37.286667 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:37.884263 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:38.401520 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:38.401650 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:38.401721 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 12723
+I20240330 08:56:38.401742 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:38.954323 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:39.456891 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:39.457012 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:39.457086 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 12743
+I20240330 08:56:39.457105 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:40.004721 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:40.525399 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:40.525577 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:40.525632 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 12748
+I20240330 08:56:40.525647 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:56:41.086534 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:41.667501 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:41.667639 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:41.667710 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 12791
+I20240330 08:56:41.667738 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:42.255937 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:42.728478 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:42.728632 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:42.728702 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 12794
+I20240330 08:56:42.728715 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:43.304978 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:43.795609 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:56:43.795718 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:56:43.795786 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 12810
+I20240330 08:56:43.795798 140649782256832 conops3.cpp:321] number of current trajectories 4
+I20240330 08:56:44.374149 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:44.851649 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:44.851767 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:44.851813 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 12816
+I20240330 08:56:44.851825 140649782256832 conops3.cpp:321] number of current trajectories 5
+I20240330 08:56:45.448331 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:45.960632 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:45.960755 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:45.960867 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 12973
+I20240330 08:56:45.960900 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:56:46.570215 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:47.077572 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:47.077771 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:47.077853 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 12989
+I20240330 08:56:47.077866 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:56:47.630667 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:48.130485 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:56:48.130630 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:56:48.130700 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 12990
+I20240330 08:56:48.130712 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:48.709281 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:49.231923 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:49.232052 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:49.232118 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 13051
+I20240330 08:56:49.232134 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:49.807738 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:50.288396 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:50.288560 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:50.288651 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 13082
+I20240330 08:56:50.288668 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:50.942850 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:51.414776 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:51.414902 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:51.414953 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 13184
+I20240330 08:56:51.414972 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:56:51.992316 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:52.473809 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:56:52.473953 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:56:52.474002 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 13247
+I20240330 08:56:52.474024 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:56:53.064426 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:53.552411 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:56:53.552530 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:56:53.552580 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 13254
+I20240330 08:56:53.552609 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:56:54.127687 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:54.622460 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:54.622621 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:54.622726 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 13334
+I20240330 08:56:54.622741 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:56:55.259516 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:55.784230 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:56:55.784380 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:56:55.784438 140649782256832 conops3.cpp:314] from 125,135,0,0 to 77,31,0,0at time step 13338
+I20240330 08:56:55.784450 140649782256832 conops3.cpp:321] number of current trajectories 2
+I20240330 08:56:56.360609 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:56.879403 140649782256832 astar_conops3.cpp:372] succeeded, expanded:11822
+I20240330 08:56:56.879561 140649782256832 conops3.cpp:326] route waypoint size:153, traversal cost 304, turning cost 0, climbing cost 0, space cost 0, total cost 304
+I20240330 08:56:56.879630 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 13393
+I20240330 08:56:56.879642 140649782256832 conops3.cpp:321] number of current trajectories 3
+I20240330 08:56:57.429557 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:57.926210 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:56:57.926322 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:56:57.926374 140649782256832 conops3.cpp:314] from 125,135,0,0 to 76,44,0,0at time step 13552
+I20240330 08:56:57.926405 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:56:58.504038 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:56:58.982077 140649782256832 astar_conops3.cpp:372] succeeded, expanded:10208
+I20240330 08:56:58.982265 140649782256832 conops3.cpp:326] route waypoint size:141, traversal cost 280, turning cost 0, climbing cost 0, space cost 0, total cost 280
+I20240330 08:56:58.982345 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 13598
+I20240330 08:56:58.982359 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:56:59.577772 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:00.132645 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:57:00.132779 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:57:00.132849 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 13689
+I20240330 08:57:00.132862 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:57:00.716218 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:01.206944 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:57:01.207077 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:57:01.207150 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 13871
+I20240330 08:57:01.207170 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:57:01.774477 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:02.269435 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:57:02.269589 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:57:02.270334 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 13941
+I20240330 08:57:02.270378 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:57:02.821003 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:03.344682 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:57:03.344809 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:57:03.344879 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 14151
+I20240330 08:57:03.344892 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:57:03.908455 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:04.431968 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:57:04.432115 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:57:04.432194 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 14173
+I20240330 08:57:04.432207 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:57:05.008579 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:05.522221 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:57:05.522337 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:57:05.522395 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 14286
+I20240330 08:57:05.522415 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:57:06.089859 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:06.573667 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:57:06.573790 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:57:06.573843 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 14346
+I20240330 08:57:06.573858 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:57:07.165218 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:07.679026 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:57:07.679167 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:57:07.679239 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 14348
+I20240330 08:57:07.679251 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:57:08.230181 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:08.733268 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:57:08.733380 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:57:08.733445 140649782256832 conops3.cpp:314] from 125,135,0,0 to 114,91,0,0at time step 14625
+I20240330 08:57:08.733464 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:57:09.321654 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:09.836376 140649782256832 astar_conops3.cpp:372] succeeded, expanded:899
+I20240330 08:57:09.836570 140649782256832 conops3.cpp:326] route waypoint size:56, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20240330 08:57:09.836631 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 14629
+I20240330 08:57:09.836643 140649782256832 conops3.cpp:321] number of current trajectories 1
+I20240330 08:57:10.384816 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:10.899979 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:57:10.900120 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:57:10.900177 140649782256832 conops3.cpp:314] from 125,135,0,0 to 159,108,0,0at time step 14940
+I20240330 08:57:10.900193 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:57:11.487206 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:11.943955 140649782256832 astar_conops3.cpp:372] succeeded, expanded:1782
+I20240330 08:57:11.944091 140649782256832 conops3.cpp:326] route waypoint size:62, traversal cost 122, turning cost 0, climbing cost 0, space cost 0, total cost 122
+I20240330 08:57:11.944158 140649782256832 conops3.cpp:314] from 125,135,0,0 to 149,81,0,0at time step 15034
+I20240330 08:57:11.944172 140649782256832 conops3.cpp:321] number of current trajectories 0
+I20240330 08:57:12.529807 140649782256832 conops3.cpp:323] update cells finished
+I20240330 08:57:13.042304 140649782256832 astar_conops3.cpp:372] succeeded, expanded:2869
+I20240330 08:57:13.042434 140649782256832 conops3.cpp:326] route waypoint size:79, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20240330 08:57:13.042731 140649782256832 conops3.cpp:41] total cost for the sequence is 49443; each are 304 304 156 156 122 280 110 156 156 280 156 156 304 122 280 157 122 304 122 280 110 280 156 156 156 156 122 280 122 122 304 122 122 156 110 304 280 280 280 122 304 122 122 280 280 156 156 280 122 304 304 122 156 122 110 122 304 110 110 110 304 304 122 280 110 122 110 304 304 280 156 280 280 156 304 280 122 304 280 280 280 304 280 122 156 304 280 156 280 110 281 304 280 156 110 110 304 122 304 122 280 156 304 122 122 110 280 304 280 110 122 304 156 122 156 304 280 304 110 280 304 280 122 122 122 156 280 110 156 122 304 280 304 156 304 110 280 122 304 110 122 122 304 304 156 280 156 156 280 304 110 122 122 304 156 110 304 110 122 122 110 110 304 156 122 110 122 304 122 280 110 122 156 304 280 280 280 122 156 280 156 304 156 156 280 110 122 156 156 304 280 122 280 304 304 110 280 280 280 304 110 280 304 122 110 280 110 110 280 156 156 110 280 304 280 304 111 156 110 156 156 156 122 110 156 280 122 156 304 110 122 110 280 156 304 122 280 156 156 110 156 156 110 110 156 110 110 156 122 156 
+I20240330 08:57:13.042750 140649782256832 conops3.cpp:45] route generation time = 273.505
+I20240330 08:57:13.447344 140649782256832 multiagent.cpp:245] trajectory generation finished
+I20240330 08:57:13.447434 140649782256832 multiagent.cpp:249] conops 2 trajectory generation use time = 275.703
+I20240330 08:57:13.447453 140649782256832 multiagent.cpp:251] conops 2 use time = 275.712

@@ -1,0 +1,241 @@
+Log file created at: 2025/02/24 16:57:11
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20250224 16:57:11.310123 140208473363648 multiagent.cpp:28] Start ConOps1
+I20250224 16:57:11.310329 140208473363648 multiagent.cpp:29] Start route generation
+I20250224 16:57:11.346657 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:26469
+I20250224 16:57:11.346798 140208473363648 conops1.cpp:377] route waypoint size:137, traversal cost 136, turning cost 0, climbing cost 0, space cost 0, total cost 136
+I20250224 16:57:11.386780 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:92128
+I20250224 16:57:11.386931 140208473363648 conops1.cpp:377] route waypoint size:222, traversal cost 221, turning cost 0, climbing cost 0, space cost 0, total cost 221
+I20250224 16:57:11.408497 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:49941
+I20250224 16:57:11.408644 140208473363648 conops1.cpp:377] route waypoint size:169, traversal cost 168, turning cost 0, climbing cost 0, space cost 0, total cost 168
+I20250224 16:57:11.438852 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:76475
+I20250224 16:57:11.439010 140208473363648 conops1.cpp:377] route waypoint size:207, traversal cost 206, turning cost 0, climbing cost 0, space cost 0, total cost 206
+I20250224 16:57:11.446803 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:9656
+I20250224 16:57:11.446938 140208473363648 conops1.cpp:377] route waypoint size:114, traversal cost 113, turning cost 0, climbing cost 0, space cost 0, total cost 113
+I20250224 16:57:11.459291 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:24006
+I20250224 16:57:11.459413 140208473363648 conops1.cpp:377] route waypoint size:117, traversal cost 116, turning cost 0, climbing cost 0, space cost 0, total cost 116
+I20250224 16:57:11.468406 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:14719
+I20250224 16:57:11.468519 140208473363648 conops1.cpp:377] route waypoint size:111, traversal cost 110, turning cost 0, climbing cost 0, space cost 0, total cost 110
+I20250224 16:57:11.478650 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:17371
+I20250224 16:57:11.478750 140208473363648 conops1.cpp:377] route waypoint size:102, traversal cost 101, turning cost 0, climbing cost 0, space cost 0, total cost 101
+I20250224 16:57:11.486246 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:9890
+I20250224 16:57:11.486346 140208473363648 conops1.cpp:377] route waypoint size:146, traversal cost 145, turning cost 0, climbing cost 0, space cost 0, total cost 145
+I20250224 16:57:11.500379 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:29126
+I20250224 16:57:11.500504 140208473363648 conops1.cpp:377] route waypoint size:131, traversal cost 130, turning cost 0, climbing cost 0, space cost 0, total cost 130
+I20250224 16:57:11.505920 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:2532
+I20250224 16:57:11.506002 140208473363648 conops1.cpp:377] route waypoint size:59, traversal cost 58, turning cost 0, climbing cost 0, space cost 0, total cost 58
+I20250224 16:57:11.515106 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:14923
+I20250224 16:57:11.515244 140208473363648 conops1.cpp:377] route waypoint size:142, traversal cost 141, turning cost 0, climbing cost 0, space cost 0, total cost 141
+I20250224 16:57:11.531777 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:35708
+I20250224 16:57:11.531910 140208473363648 conops1.cpp:377] route waypoint size:162, traversal cost 161, turning cost 0, climbing cost 0, space cost 0, total cost 161
+I20250224 16:57:11.544999 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:26280
+I20250224 16:57:11.545122 140208473363648 conops1.cpp:377] route waypoint size:140, traversal cost 139, turning cost 0, climbing cost 0, space cost 0, total cost 139
+I20250224 16:57:11.556509 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:22372
+I20250224 16:57:11.556625 140208473363648 conops1.cpp:377] route waypoint size:121, traversal cost 120, turning cost 0, climbing cost 0, space cost 0, total cost 120
+I20250224 16:57:11.570874 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:31352
+I20250224 16:57:11.570995 140208473363648 conops1.cpp:377] route waypoint size:161, traversal cost 160, turning cost 0, climbing cost 0, space cost 0, total cost 160
+I20250224 16:57:11.596163 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:62632
+I20250224 16:57:11.596306 140208473363648 conops1.cpp:377] route waypoint size:197, traversal cost 196, turning cost 0, climbing cost 0, space cost 0, total cost 196
+I20250224 16:57:11.604027 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:8370
+I20250224 16:57:11.604135 140208473363648 conops1.cpp:377] route waypoint size:138, traversal cost 137, turning cost 0, climbing cost 0, space cost 0, total cost 137
+I20250224 16:57:11.676411 140208473363648 astar_conops1.cpp:1174] failed, expanded: 183736
+I20250224 16:57:11.676615 140208473363648 conops1.cpp:377] route waypoint size:266, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20250224 16:57:11.687701 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:22100
+I20250224 16:57:11.687835 140208473363648 conops1.cpp:377] route waypoint size:134, traversal cost 133, turning cost 0, climbing cost 0, space cost 0, total cost 133
+I20250224 16:57:11.688564 140208473363648 conops1.cpp:41] total cost for the sequence is inf; each are 136 221 168 206 113 116 110 101 145 130 58 141 161 139 120 160 196 137 inf 133 
+I20250224 16:57:11.688579 140208473363648 conops1.cpp:111] route generation time = 0.356197
+I20250224 16:57:11.688594 140208473363648 multiagent.cpp:45] route generation finished
+I20250224 16:57:11.688602 140208473363648 multiagent.cpp:48] conops 1 route generation use time = 0.378496
+I20250224 16:57:11.688610 140208473363648 multiagent.cpp:51] generating route map
+W20250224 16:57:11.689012 140208473363648 multiagent.cpp:54] fail to generate all routes, only generate 19 routes
+I20250224 16:57:11.689314 140208473363648 multiagent.cpp:67] route map generation finished.
+I20250224 16:57:11.689326 140208473363648 multiagent.cpp:69] Start trajectory generation
+I20250224 16:57:11.689334 140208473363648 multiagent.cpp:72] start_time9
+I20250224 16:57:11.689387 140208473363648 multiagent.cpp:72] start_time105
+I20250224 16:57:11.689410 140208473363648 multiagent.cpp:72] start_time168
+I20250224 16:57:11.689448 140208473363648 multiagent.cpp:72] start_time243
+I20250224 16:57:11.689476 140208473363648 multiagent.cpp:72] start_time318
+W20250224 16:57:11.689486 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.759743 140208473363648 astar_conops1.cpp:1174] failed, expanded: 182893
+W20250224 16:57:11.759895 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:11.759922 140208473363648 multiagent.cpp:72] start_time423
+I20250224 16:57:11.760019 140208473363648 multiagent.cpp:72] start_time522
+I20250224 16:57:11.760054 140208473363648 multiagent.cpp:72] start_time636
+I20250224 16:57:11.760090 140208473363648 multiagent.cpp:72] start_time702
+I20250224 16:57:11.760121 140208473363648 multiagent.cpp:72] start_time786
+I20250224 16:57:11.760174 140208473363648 multiagent.cpp:72] start_time849
+I20250224 16:57:11.760202 140208473363648 multiagent.cpp:72] start_time921
+W20250224 16:57:11.760212 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.830465 140208473363648 astar_conops1.cpp:1174] failed, expanded: 182893
+W20250224 16:57:11.830611 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:11.830636 140208473363648 multiagent.cpp:72] start_time1011
+I20250224 16:57:11.830699 140208473363648 multiagent.cpp:72] start_time1074
+I20250224 16:57:11.830725 140208473363648 multiagent.cpp:72] start_time1146
+I20250224 16:57:11.830808 140208473363648 multiagent.cpp:72] start_time1245
+I20250224 16:57:11.830852 140208473363648 multiagent.cpp:72] start_time1338
+W20250224 16:57:11.830873 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.899938 140208473363648 astar_conops1.cpp:1174] failed, expanded: 182893
+W20250224 16:57:11.900096 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:11.900123 140208473363648 multiagent.cpp:72] start_time1410
+I20250224 16:57:11.900192 140208473363648 multiagent.cpp:72] start_time1506
+I20250224 16:57:11.900219 140208473363648 multiagent.cpp:72] start_time1614
+I20250224 16:57:11.900249 140208473363648 multiagent.cpp:72] start_time1674
+I20250224 16:57:11.900282 140208473363648 multiagent.cpp:72] start_time1782
+I20250224 16:57:11.900334 140208473363648 multiagent.cpp:72] start_time1884
+I20250224 16:57:11.900362 140208473363648 multiagent.cpp:72] start_time1965
+I20250224 16:57:11.900388 140208473363648 multiagent.cpp:72] start_time2034
+I20250224 16:57:11.900413 140208473363648 multiagent.cpp:72] start_time2151
+I20250224 16:57:11.900439 140208473363648 multiagent.cpp:72] start_time2232
+I20250224 16:57:11.900466 140208473363648 multiagent.cpp:72] start_time2298
+I20250224 16:57:11.900834 140208473363648 multiagent.cpp:72] start_time2364
+W20250224 16:57:11.900862 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.905429 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:1279
+I20250224 16:57:11.905634 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:11.905675 140208473363648 multiagent.cpp:72] start_time2475
+W20250224 16:57:11.905688 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.911391 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:5014
+I20250224 16:57:11.911670 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:11.911731 140208473363648 multiagent.cpp:72] start_time2571
+I20250224 16:57:11.911769 140208473363648 multiagent.cpp:72] start_time2679
+I20250224 16:57:11.911804 140208473363648 multiagent.cpp:72] start_time2784
+I20250224 16:57:11.911846 140208473363648 multiagent.cpp:72] start_time2874
+W20250224 16:57:11.911856 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.919557 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:10647
+I20250224 16:57:11.919951 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:11.920042 140208473363648 multiagent.cpp:72] start_time2994
+I20250224 16:57:11.920082 140208473363648 multiagent.cpp:72] start_time3075
+W20250224 16:57:11.920093 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.931971 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:23425
+I20250224 16:57:11.932617 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:11.932758 140208473363648 multiagent.cpp:72] start_time3168
+I20250224 16:57:11.932822 140208473363648 multiagent.cpp:72] start_time3279
+W20250224 16:57:11.932835 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.961744 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:69445
+I20250224 16:57:11.962731 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:11.962935 140208473363648 multiagent.cpp:72] start_time3375
+I20250224 16:57:11.962988 140208473363648 multiagent.cpp:72] start_time3489
+I20250224 16:57:11.963035 140208473363648 multiagent.cpp:72] start_time3582
+W20250224 16:57:11.963046 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.977252 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:30861
+I20250224 16:57:11.977893 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:11.978041 140208473363648 multiagent.cpp:72] start_time3684
+W20250224 16:57:11.978058 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.988455 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:19766
+I20250224 16:57:11.989081 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:11.989221 140208473363648 multiagent.cpp:72] start_time3747
+I20250224 16:57:11.989286 140208473363648 multiagent.cpp:72] start_time3822
+I20250224 16:57:11.989306 140208473363648 multiagent.cpp:72] start_time3900
+W20250224 16:57:11.989318 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:11.998357 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:16486
+I20250224 16:57:11.998791 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:11.998899 140208473363648 multiagent.cpp:72] start_time3963
+I20250224 16:57:11.998945 140208473363648 multiagent.cpp:72] start_time4038
+W20250224 16:57:11.998957 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.003004 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:346
+I20250224 16:57:12.003134 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.003158 140208473363648 multiagent.cpp:72] start_time4104
+W20250224 16:57:12.003171 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.012851 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:17617
+I20250224 16:57:12.013481 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.013611 140208473363648 multiagent.cpp:72] start_time4179
+I20250224 16:57:12.013650 140208473363648 multiagent.cpp:72] start_time4278
+I20250224 16:57:12.013682 140208473363648 multiagent.cpp:72] start_time4359
+W20250224 16:57:12.013692 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.019046 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:4091
+I20250224 16:57:12.019275 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.019331 140208473363648 multiagent.cpp:72] start_time4443
+W20250224 16:57:12.019347 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.035405 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:36249
+I20250224 16:57:12.036109 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.036262 140208473363648 multiagent.cpp:72] start_time4515
+I20250224 16:57:12.036303 140208473363648 multiagent.cpp:72] start_time4590
+W20250224 16:57:12.036315 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.051525 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:31526
+I20250224 16:57:12.052387 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.052610 140208473363648 multiagent.cpp:72] start_time4707
+I20250224 16:57:12.052645 140208473363648 multiagent.cpp:72] start_time4806
+I20250224 16:57:12.052677 140208473363648 multiagent.cpp:72] start_time4902
+I20250224 16:57:12.052709 140208473363648 multiagent.cpp:72] start_time4974
+W20250224 16:57:12.052721 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.063543 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:21367
+I20250224 16:57:12.064116 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.064245 140208473363648 multiagent.cpp:72] start_time5076
+I20250224 16:57:12.064307 140208473363648 multiagent.cpp:72] start_time5145
+I20250224 16:57:12.064336 140208473363648 multiagent.cpp:72] start_time5229
+I20250224 16:57:12.064363 140208473363648 multiagent.cpp:72] start_time5349
+W20250224 16:57:12.064374 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.077343 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:28153
+I20250224 16:57:12.078205 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.078427 140208473363648 multiagent.cpp:72] start_time5448
+I20250224 16:57:12.078472 140208473363648 multiagent.cpp:72] start_time5541
+W20250224 16:57:12.078484 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.150131 140208473363648 astar_conops1.cpp:1174] failed, expanded: 172401
+W20250224 16:57:12.150304 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:12.150337 140208473363648 multiagent.cpp:72] start_time5640
+W20250224 16:57:12.150373 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.156973 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:7470
+I20250224 16:57:12.157410 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.157527 140208473363648 multiagent.cpp:72] start_time5751
+I20250224 16:57:12.157569 140208473363648 multiagent.cpp:72] start_time5859
+I20250224 16:57:12.157601 140208473363648 multiagent.cpp:72] start_time5931
+W20250224 16:57:12.157613 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.178948 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:46735
+I20250224 16:57:12.180013 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.180234 140208473363648 multiagent.cpp:72] start_time5994
+I20250224 16:57:12.180275 140208473363648 multiagent.cpp:72] start_time6072
+I20250224 16:57:12.180299 140208473363648 multiagent.cpp:72] start_time6150
+W20250224 16:57:12.180309 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.205393 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:59371
+I20250224 16:57:12.206499 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.206723 140208473363648 multiagent.cpp:72] start_time6222
+W20250224 16:57:12.206743 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.214406 140208473363648 astar_conops1.cpp:1159] succeeded, expanded:10727
+I20250224 16:57:12.214876 140208473363648 multiagent.cpp:126] new route generated
+I20250224 16:57:12.214977 140208473363648 multiagent.cpp:72] start_time6339
+I20250224 16:57:12.215019 140208473363648 multiagent.cpp:72] start_time6450
+W20250224 16:57:12.215030 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.219033 140208473363648 astar_conops1.cpp:1174] failed, expanded: 241
+W20250224 16:57:12.219062 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:12.219093 140208473363648 multiagent.cpp:72] start_time6531
+W20250224 16:57:12.219103 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.223079 140208473363648 astar_conops1.cpp:1174] failed, expanded: 241
+W20250224 16:57:12.223109 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:12.223138 140208473363648 multiagent.cpp:72] start_time6630
+I20250224 16:57:12.223632 140208473363648 multiagent.cpp:72] start_time6714
+I20250224 16:57:12.223680 140208473363648 multiagent.cpp:72] start_time6828
+I20250224 16:57:12.223715 140208473363648 multiagent.cpp:72] start_time6915
+I20250224 16:57:12.223742 140208473363648 multiagent.cpp:72] start_time6990
+I20250224 16:57:12.223797 140208473363648 multiagent.cpp:72] start_time7065
+I20250224 16:57:12.223824 140208473363648 multiagent.cpp:72] start_time7161
+I20250224 16:57:12.223866 140208473363648 multiagent.cpp:72] start_time7236
+I20250224 16:57:12.223886 140208473363648 multiagent.cpp:72] start_time7332
+I20250224 16:57:12.223916 140208473363648 multiagent.cpp:72] start_time7443
+W20250224 16:57:12.223926 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.228080 140208473363648 astar_conops1.cpp:1174] failed, expanded: 241
+W20250224 16:57:12.228110 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:12.228140 140208473363648 multiagent.cpp:72] start_time7527
+I20250224 16:57:12.228181 140208473363648 multiagent.cpp:72] start_time7602
+I20250224 16:57:12.228233 140208473363648 multiagent.cpp:72] start_time7722
+I20250224 16:57:12.228258 140208473363648 multiagent.cpp:72] start_time7812
+I20250224 16:57:12.228289 140208473363648 multiagent.cpp:72] start_time7878
+W20250224 16:57:12.228298 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.232448 140208473363648 astar_conops1.cpp:1174] failed, expanded: 241
+W20250224 16:57:12.232477 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:12.232490 140208473363648 multiagent.cpp:72] start_time7941
+I20250224 16:57:12.232527 140208473363648 multiagent.cpp:72] start_time8007
+I20250224 16:57:12.232559 140208473363648 multiagent.cpp:72] start_time8103
+I20250224 16:57:12.232609 140208473363648 multiagent.cpp:72] start_time8211
+I20250224 16:57:12.232659 140208473363648 multiagent.cpp:72] start_time8298
+W20250224 16:57:12.232669 140208473363648 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20250224 16:57:12.236734 140208473363648 astar_conops1.cpp:1174] failed, expanded: 241
+W20250224 16:57:12.236763 140208473363648 multiagent.cpp:133] failed to generate new route
+I20250224 16:57:12.236776 140208473363648 multiagent.cpp:72] start_time8361
+I20250224 16:57:12.236803 140208473363648 multiagent.cpp:72] start_time8445
+I20250224 16:57:12.236840 140208473363648 multiagent.cpp:72] start_time8565
+I20250224 16:57:12.236876 140208473363648 multiagent.cpp:72] start_time8655
+I20250224 16:57:12.236896 140208473363648 multiagent.cpp:72] start_time8775
+I20250224 16:57:12.236939 140208473363648 multiagent.cpp:139] trajectory generation finished
+I20250224 16:57:12.236948 140208473363648 multiagent.cpp:142] conops 1 trajectory generation use time = 0.548345
+I20250224 16:57:12.236984 140208473363648 multiagent.cpp:144] conops 1 use time = 0.926841

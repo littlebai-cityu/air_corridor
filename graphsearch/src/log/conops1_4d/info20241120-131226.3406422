@@ -1,0 +1,121 @@
+Log file created at: 2024/11/20 13:12:26
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20241120 13:12:26.886366 140032457946304 multiagent.cpp:28] Start ConOps1
+I20241120 13:12:26.886819 140032457946304 multiagent.cpp:29] Start route generation
+I20241120 13:12:26.941045 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:8399
+I20241120 13:12:26.941310 140032457946304 conops1.cpp:377] route waypoint size:74, traversal cost 73, turning cost 0, climbing cost 0, space cost 0, total cost 73
+I20241120 13:12:26.955047 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:501
+I20241120 13:12:26.955301 140032457946304 conops1.cpp:377] route waypoint size:61, traversal cost 60, turning cost 0, climbing cost 0, space cost 0, total cost 60
+I20241120 13:12:26.999036 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:36539
+I20241120 13:12:26.999351 140032457946304 conops1.cpp:377] route waypoint size:153, traversal cost 152, turning cost 0, climbing cost 0, space cost 0, total cost 152
+I20241120 13:12:27.041312 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:32654
+I20241120 13:12:27.041650 140032457946304 conops1.cpp:377] route waypoint size:149, traversal cost 148, turning cost 0, climbing cost 0, space cost 0, total cost 148
+I20241120 13:12:27.059997 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:5862
+I20241120 13:12:27.060278 140032457946304 conops1.cpp:377] route waypoint size:65, traversal cost 64, turning cost 0, climbing cost 0, space cost 0, total cost 64
+I20241120 13:12:27.095633 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:27107
+I20241120 13:12:27.096010 140032457946304 conops1.cpp:377] route waypoint size:133, traversal cost 132, turning cost 0, climbing cost 0, space cost 0, total cost 132
+I20241120 13:12:27.111321 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:1662
+I20241120 13:12:27.111596 140032457946304 conops1.cpp:377] route waypoint size:65, traversal cost 64, turning cost 0, climbing cost 0, space cost 0, total cost 64
+I20241120 13:12:27.289258 140032457946304 astar_conops1.cpp:1174] failed, expanded: 196223
+I20241120 13:12:27.289786 140032457946304 conops1.cpp:377] route waypoint size:266, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:27.325625 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:27611
+I20241120 13:12:27.325973 140032457946304 conops1.cpp:377] route waypoint size:143, traversal cost 142, turning cost 0, climbing cost 0, space cost 0, total cost 142
+I20241120 13:12:27.372076 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:38293
+I20241120 13:12:27.372422 140032457946304 conops1.cpp:377] route waypoint size:157, traversal cost 156, turning cost 0, climbing cost 0, space cost 0, total cost 156
+I20241120 13:12:27.434928 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:57272
+I20241120 13:12:27.435243 140032457946304 conops1.cpp:377] route waypoint size:180, traversal cost 179, turning cost 0, climbing cost 0, space cost 0, total cost 179
+I20241120 13:12:27.611167 140032457946304 astar_conops1.cpp:1174] failed, expanded: 192525
+I20241120 13:12:27.611743 140032457946304 conops1.cpp:377] route waypoint size:269, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:27.649411 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:29818
+I20241120 13:12:27.649824 140032457946304 conops1.cpp:377] route waypoint size:132, traversal cost 131, turning cost 0, climbing cost 0, space cost 0, total cost 131
+I20241120 13:12:27.667246 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:4137
+I20241120 13:12:27.667555 140032457946304 conops1.cpp:377] route waypoint size:66, traversal cost 65, turning cost 0, climbing cost 0, space cost 0, total cost 65
+I20241120 13:12:27.682108 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:1134
+I20241120 13:12:27.682399 140032457946304 conops1.cpp:377] route waypoint size:33, traversal cost 32, turning cost 0, climbing cost 0, space cost 0, total cost 32
+I20241120 13:12:27.704114 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:10342
+I20241120 13:12:27.704462 140032457946304 conops1.cpp:377] route waypoint size:86, traversal cost 85, turning cost 0, climbing cost 0, space cost 0, total cost 85
+I20241120 13:12:27.722103 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:5578
+I20241120 13:12:27.722357 140032457946304 conops1.cpp:377] route waypoint size:83, traversal cost 82, turning cost 0, climbing cost 0, space cost 0, total cost 82
+I20241120 13:12:27.736332 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:220
+I20241120 13:12:27.736567 140032457946304 conops1.cpp:377] route waypoint size:37, traversal cost 36, turning cost 0, climbing cost 0, space cost 0, total cost 36
+I20241120 13:12:27.757029 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:8841
+I20241120 13:12:27.757355 140032457946304 conops1.cpp:377] route waypoint size:87, traversal cost 86, turning cost 0, climbing cost 0, space cost 0, total cost 86
+I20241120 13:12:27.774551 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:4497
+I20241120 13:12:27.774809 140032457946304 conops1.cpp:377] route waypoint size:86, traversal cost 85, turning cost 0, climbing cost 0, space cost 0, total cost 85
+I20241120 13:12:27.789781 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:1642
+I20241120 13:12:27.790008 140032457946304 conops1.cpp:377] route waypoint size:74, traversal cost 73, turning cost 0, climbing cost 0, space cost 0, total cost 73
+I20241120 13:12:27.842087 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:45365
+I20241120 13:12:27.842470 140032457946304 conops1.cpp:377] route waypoint size:177, traversal cost 176, turning cost 0, climbing cost 0, space cost 0, total cost 176
+I20241120 13:12:27.867313 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:13659
+I20241120 13:12:27.867639 140032457946304 conops1.cpp:377] route waypoint size:105, traversal cost 104, turning cost 0, climbing cost 0, space cost 0, total cost 104
+I20241120 13:12:27.888911 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:9491
+I20241120 13:12:27.889226 140032457946304 conops1.cpp:377] route waypoint size:161, traversal cost 160, turning cost 0, climbing cost 0, space cost 0, total cost 160
+I20241120 13:12:27.911029 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:9821
+I20241120 13:12:27.911365 140032457946304 conops1.cpp:377] route waypoint size:106, traversal cost 105, turning cost 0, climbing cost 0, space cost 0, total cost 105
+I20241120 13:12:27.925395 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:27.925591 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:27.938700 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:27.938876 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:27.951987 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:27.952143 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:27.965368 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:27.965533 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:27.977815 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:27.977957 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:27.990648 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:27.990830 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.003812 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.003978 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.016847 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.016987 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.029851 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.029987 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.042801 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.042960 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.055752 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.055881 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.068742 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.068879 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.081653 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.081798 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.094562 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.094689 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.107518 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.107651 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.120517 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.120648 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.133511 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.133627 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.146514 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.146637 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.159439 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.159556 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.172219 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.172355 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.185126 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.185253 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.198134 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.198260 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.211163 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.211326 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.224133 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.224290 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.237066 140032457946304 astar_conops1.cpp:1174] failed, expanded: 98
+I20241120 13:12:28.237180 140032457946304 conops1.cpp:377] route waypoint size:8, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf
+I20241120 13:12:28.237277 140032457946304 conops1.cpp:41] total cost for the sequence is inf; each are 73 60 152 148 64 132 64 inf 142 156 179 inf 131 65 32 85 82 36 86 85 73 176 104 160 105 inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf inf 
+I20241120 13:12:28.237291 140032457946304 conops1.cpp:111] route generation time = 1.31541
+I20241120 13:12:28.237327 140032457946304 multiagent.cpp:45] route generation finished
+I20241120 13:12:28.237337 140032457946304 multiagent.cpp:48] conops 1 route generation use time = 1.35101
+I20241120 13:12:28.237348 140032457946304 multiagent.cpp:51] generating route map
+W20241120 13:12:28.237893 140032457946304 multiagent.cpp:54] fail to generate all routes, only generate 23 routes
+I20241120 13:12:28.238468 140032457946304 multiagent.cpp:67] route map generation finished.
+I20241120 13:12:28.238484 140032457946304 multiagent.cpp:69] Start trajectory generation
+I20241120 13:12:28.238495 140032457946304 multiagent.cpp:72] start_time38247
+W20241120 13:12:28.238523 140032457946304 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20241120 13:12:28.280842 140032457946304 astar_conops1.cpp:1159] succeeded, expanded:35545
+I20241120 13:12:28.281928 140032457946304 multiagent.cpp:126] new route generated
+I20241120 13:12:28.282118 140032457946304 multiagent.cpp:139] trajectory generation finished
+I20241120 13:12:28.282134 140032457946304 multiagent.cpp:142] conops 1 trajectory generation use time = 0.044796
+I20241120 13:12:28.282162 140032457946304 multiagent.cpp:144] conops 1 use time = 1.3958

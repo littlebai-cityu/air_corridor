@@ -1,0 +1,12 @@
+Log file created at: 2024/09/25 04:55:54
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240925 04:55:54.527423 140000604894400 multiagent.cpp:28] Start ConOps1
+I20240925 04:55:54.537550 140000604894400 multiagent.cpp:29] Start route generation
+I20240925 04:56:00.415300 140000604894400 astar_conops1.cpp:1159] succeeded, expanded:4192046
+I20240925 04:56:00.415928 140000604894400 conops1.cpp:377] route waypoint size:732, traversal cost 731, turning cost 0, climbing cost 0, space cost 0, total cost 731
+I20240925 04:56:03.156691 140000604894400 astar_conops1.cpp:1159] succeeded, expanded:3228273
+I20240925 04:56:03.157016 140000604894400 conops1.cpp:377] route waypoint size:706, traversal cost 705, turning cost 0, climbing cost 0, space cost 0, total cost 705
+I20240925 04:56:14.040575 140000604894400 astar_conops1.cpp:1174] failed, expanded: 16684286
+I20240925 04:56:14.042002 140000604894400 conops1.cpp:377] route waypoint size:1066, traversal cost inf, turning cost 0, climbing cost 0, space cost 0, total cost inf

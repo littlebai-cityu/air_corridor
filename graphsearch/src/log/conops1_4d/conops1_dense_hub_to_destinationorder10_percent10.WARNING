@@ -1,0 +1,15 @@
+Log file created at: 2024/09/23 17:10:24
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:02
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W20240923 17:10:24.331221 140020481012928 multiagent.cpp:54] fail to generate all routes, only generate 13 routes
+W20240923 17:10:24.331583 140020481012928 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+W20240923 17:10:24.372851 140020481012928 multiagent.cpp:133] failed to generate new route
+W20240923 17:10:24.373057 140020481012928 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+W20240923 17:10:24.414517 140020481012928 multiagent.cpp:133] failed to generate new route
+W20240923 17:10:24.414599 140020481012928 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+W20240923 17:10:24.455919 140020481012928 multiagent.cpp:133] failed to generate new route
+W20240923 17:10:24.455947 140020481012928 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+W20240923 17:10:24.497224 140020481012928 multiagent.cpp:133] failed to generate new route
+W20240923 17:10:24.497314 140020481012928 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+W20240923 17:10:24.538622 140020481012928 multiagent.cpp:133] failed to generate new route

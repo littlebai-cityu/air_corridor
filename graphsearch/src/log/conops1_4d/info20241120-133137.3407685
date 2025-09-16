@@ -1,0 +1,26 @@
+Log file created at: 2024/11/20 13:31:37
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20241120 13:31:37.863429 139934164128960 multiagent.cpp:28] Start ConOps1
+I20241120 13:31:37.863903 139934164128960 multiagent.cpp:29] Start route generation
+I20241120 13:31:37.915801 139934164128960 astar_conops1.cpp:1159] succeeded, expanded:6883
+I20241120 13:31:37.916069 139934164128960 conops1.cpp:377] route waypoint size:79, traversal cost 78, turning cost 0, climbing cost 0, space cost 0, total cost 78
+I20241120 13:31:37.932907 139934164128960 astar_conops1.cpp:1159] succeeded, expanded:4911
+I20241120 13:31:37.933171 139934164128960 conops1.cpp:377] route waypoint size:62, traversal cost 61, turning cost 0, climbing cost 0, space cost 0, total cost 61
+I20241120 13:31:37.947625 139934164128960 astar_conops1.cpp:1159] succeeded, expanded:2267
+I20241120 13:31:37.947859 139934164128960 conops1.cpp:377] route waypoint size:56, traversal cost 55, turning cost 0, climbing cost 0, space cost 0, total cost 55
+I20241120 13:31:37.948160 139934164128960 conops1.cpp:41] total cost for the sequence is 194; each are 78 61 55 
+I20241120 13:31:37.948175 139934164128960 conops1.cpp:111] route generation time = 0.04973
+I20241120 13:31:37.948195 139934164128960 multiagent.cpp:45] route generation finished
+I20241120 13:31:37.948210 139934164128960 multiagent.cpp:48] conops 1 route generation use time = 0.084818
+I20241120 13:31:37.948220 139934164128960 multiagent.cpp:51] generating route map
+I20241120 13:31:37.948349 139934164128960 multiagent.cpp:67] route map generation finished.
+I20241120 13:31:37.948360 139934164128960 multiagent.cpp:69] Start trajectory generation
+I20241120 13:31:37.948370 139934164128960 multiagent.cpp:72] start_time38247
+W20241120 13:31:37.948398 139934164128960 multiagent.cpp:97] cannot find route from the routes,generate the new route now
+I20241120 13:31:37.990708 139934164128960 astar_conops1.cpp:1159] succeeded, expanded:36023
+I20241120 13:31:37.991676 139934164128960 multiagent.cpp:126] new route generated
+I20241120 13:31:37.991841 139934164128960 multiagent.cpp:139] trajectory generation finished
+I20241120 13:31:37.991854 139934164128960 multiagent.cpp:142] conops 1 trajectory generation use time = 0.043645
+I20241120 13:31:37.991879 139934164128960 multiagent.cpp:144] conops 1 use time = 0.128463

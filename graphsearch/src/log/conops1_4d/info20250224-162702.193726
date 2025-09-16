@@ -1,0 +1,176 @@
+Log file created at: 2025/02/24 16:27:02
+Running on machine: lishuaiserver
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20250224 16:27:02.822750 140022181811392 multiagent.cpp:28] Start ConOps1
+I20250224 16:27:02.822920 140022181811392 multiagent.cpp:29] Start route generation
+I20250224 16:27:02.851469 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:6302
+I20250224 16:27:02.851551 140022181811392 conops1.cpp:377] route waypoint size:68, traversal cost 67, turning cost 0, climbing cost 0, space cost 0, total cost 67
+I20250224 16:27:02.857009 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:3289
+I20250224 16:27:02.857119 140022181811392 conops1.cpp:377] route waypoint size:52, traversal cost 51, turning cost 0, climbing cost 0, space cost 0, total cost 51
+I20250224 16:27:02.866759 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:17116
+I20250224 16:27:02.866850 140022181811392 conops1.cpp:377] route waypoint size:112, traversal cost 111, turning cost 0, climbing cost 0, space cost 0, total cost 111
+I20250224 16:27:02.873318 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:6492
+I20250224 16:27:02.873405 140022181811392 conops1.cpp:377] route waypoint size:127, traversal cost 126, turning cost 0, climbing cost 0, space cost 0, total cost 126
+I20250224 16:27:02.882374 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:15329
+I20250224 16:27:02.882472 140022181811392 conops1.cpp:377] route waypoint size:108, traversal cost 107, turning cost 0, climbing cost 0, space cost 0, total cost 107
+I20250224 16:27:02.888351 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:3727
+I20250224 16:27:02.888447 140022181811392 conops1.cpp:377] route waypoint size:114, traversal cost 113, turning cost 0, climbing cost 0, space cost 0, total cost 113
+I20250224 16:27:02.895440 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:7151
+I20250224 16:27:02.895532 140022181811392 conops1.cpp:377] route waypoint size:90, traversal cost 89, turning cost 0, climbing cost 0, space cost 0, total cost 89
+I20250224 16:27:02.905945 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:17866
+I20250224 16:27:02.906032 140022181811392 conops1.cpp:377] route waypoint size:116, traversal cost 115, turning cost 0, climbing cost 0, space cost 0, total cost 115
+I20250224 16:27:02.937956 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:78472
+I20250224 16:27:02.938113 140022181811392 conops1.cpp:377] route waypoint size:211, traversal cost 210, turning cost 0, climbing cost 0, space cost 0, total cost 210
+I20250224 16:27:02.956762 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:40448
+I20250224 16:27:02.956905 140022181811392 conops1.cpp:377] route waypoint size:160, traversal cost 159, turning cost 0, climbing cost 0, space cost 0, total cost 159
+I20250224 16:27:02.962332 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:1887
+I20250224 16:27:02.962421 140022181811392 conops1.cpp:377] route waypoint size:47, traversal cost 46, turning cost 0, climbing cost 0, space cost 0, total cost 46
+I20250224 16:27:02.986906 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:54614
+I20250224 16:27:02.987173 140022181811392 conops1.cpp:377] route waypoint size:181, traversal cost 180, turning cost 0, climbing cost 0, space cost 0, total cost 180
+I20250224 16:27:03.020070 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:51800
+I20250224 16:27:03.020172 140022181811392 conops1.cpp:377] route waypoint size:177, traversal cost 176, turning cost 0, climbing cost 0, space cost 0, total cost 176
+I20250224 16:27:03.038127 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:24606
+I20250224 16:27:03.038232 140022181811392 conops1.cpp:377] route waypoint size:152, traversal cost 151, turning cost 0, climbing cost 0, space cost 0, total cost 151
+I20250224 16:27:03.051373 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:15390
+I20250224 16:27:03.051447 140022181811392 conops1.cpp:377] route waypoint size:101, traversal cost 100, turning cost 0, climbing cost 0, space cost 0, total cost 100
+I20250224 16:27:03.091361 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:79356
+I20250224 16:27:03.091480 140022181811392 conops1.cpp:377] route waypoint size:213, traversal cost 212, turning cost 0, climbing cost 0, space cost 0, total cost 212
+I20250224 16:27:03.109349 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:27587
+I20250224 16:27:03.109477 140022181811392 conops1.cpp:377] route waypoint size:168, traversal cost 167, turning cost 0, climbing cost 0, space cost 0, total cost 167
+I20250224 16:27:03.119615 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:9142
+I20250224 16:27:03.119706 140022181811392 conops1.cpp:377] route waypoint size:99, traversal cost 98, turning cost 0, climbing cost 0, space cost 0, total cost 98
+I20250224 16:27:03.127655 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:4611
+I20250224 16:27:03.127730 140022181811392 conops1.cpp:377] route waypoint size:61, traversal cost 60, turning cost 0, climbing cost 0, space cost 0, total cost 60
+I20250224 16:27:03.145963 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:28585
+I20250224 16:27:03.146082 140022181811392 conops1.cpp:377] route waypoint size:174, traversal cost 173, turning cost 0, climbing cost 0, space cost 0, total cost 173
+I20250224 16:27:03.153606 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:3544
+I20250224 16:27:03.153680 140022181811392 conops1.cpp:377] route waypoint size:83, traversal cost 82, turning cost 0, climbing cost 0, space cost 0, total cost 82
+I20250224 16:27:03.172487 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:33115
+I20250224 16:27:03.172589 140022181811392 conops1.cpp:377] route waypoint size:178, traversal cost 177, turning cost 0, climbing cost 0, space cost 0, total cost 177
+I20250224 16:27:03.179667 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:1578
+I20250224 16:27:03.179737 140022181811392 conops1.cpp:377] route waypoint size:66, traversal cost 65, turning cost 0, climbing cost 0, space cost 0, total cost 65
+I20250224 16:27:03.187566 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:5867
+I20250224 16:27:03.187629 140022181811392 conops1.cpp:377] route waypoint size:76, traversal cost 75, turning cost 0, climbing cost 0, space cost 0, total cost 75
+I20250224 16:27:03.236205 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:94378
+I20250224 16:27:03.236389 140022181811392 conops1.cpp:377] route waypoint size:246, traversal cost 245, turning cost 0, climbing cost 0, space cost 0, total cost 245
+I20250224 16:27:03.243311 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:181
+I20250224 16:27:03.243385 140022181811392 conops1.cpp:377] route waypoint size:19, traversal cost 18, turning cost 0, climbing cost 0, space cost 0, total cost 18
+I20250224 16:27:03.257376 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:21288
+I20250224 16:27:03.257484 140022181811392 conops1.cpp:377] route waypoint size:138, traversal cost 137, turning cost 0, climbing cost 0, space cost 0, total cost 137
+I20250224 16:27:03.267249 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:9516
+I20250224 16:27:03.267332 140022181811392 conops1.cpp:377] route waypoint size:88, traversal cost 87, turning cost 0, climbing cost 0, space cost 0, total cost 87
+I20250224 16:27:03.287423 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:35545
+I20250224 16:27:03.287524 140022181811392 conops1.cpp:377] route waypoint size:170, traversal cost 169, turning cost 0, climbing cost 0, space cost 0, total cost 169
+I20250224 16:27:03.296993 140022181811392 astar_conops1.cpp:1159] succeeded, expanded:8652
+I20250224 16:27:03.297079 140022181811392 conops1.cpp:377] route waypoint size:124, traversal cost 123, turning cost 0, climbing cost 0, space cost 0, total cost 123
+I20250224 16:27:03.297754 140022181811392 conops1.cpp:41] total cost for the sequence is 3689; each are 67 51 111 126 107 113 89 115 210 159 46 180 176 151 100 212 167 98 60 173 82 177 65 75 245 18 137 87 169 123 
+I20250224 16:27:03.297782 140022181811392 conops1.cpp:111] route generation time = 0.452313
+I20250224 16:27:03.297799 140022181811392 multiagent.cpp:45] route generation finished
+I20250224 16:27:03.297808 140022181811392 multiagent.cpp:48] conops 1 route generation use time = 0.475073
+I20250224 16:27:03.297816 140022181811392 multiagent.cpp:51] generating route map
+I20250224 16:27:03.298476 140022181811392 multiagent.cpp:67] route map generation finished.
+I20250224 16:27:03.298493 140022181811392 multiagent.cpp:69] Start trajectory generation
+I20250224 16:27:03.298501 140022181811392 multiagent.cpp:72] start_time9
+I20250224 16:27:03.298540 140022181811392 multiagent.cpp:72] start_time81
+I20250224 16:27:03.298564 140022181811392 multiagent.cpp:72] start_time177
+I20250224 16:27:03.298611 140022181811392 multiagent.cpp:72] start_time282
+I20250224 16:27:03.298634 140022181811392 multiagent.cpp:72] start_time363
+I20250224 16:27:03.298661 140022181811392 multiagent.cpp:72] start_time459
+I20250224 16:27:03.298697 140022181811392 multiagent.cpp:72] start_time537
+I20250224 16:27:03.298765 140022181811392 multiagent.cpp:72] start_time612
+I20250224 16:27:03.298792 140022181811392 multiagent.cpp:72] start_time702
+I20250224 16:27:03.298819 140022181811392 multiagent.cpp:72] start_time762
+I20250224 16:27:03.298855 140022181811392 multiagent.cpp:72] start_time873
+I20250224 16:27:03.298894 140022181811392 multiagent.cpp:72] start_time978
+I20250224 16:27:03.298911 140022181811392 multiagent.cpp:72] start_time1065
+I20250224 16:27:03.298930 140022181811392 multiagent.cpp:72] start_time1179
+I20250224 16:27:03.298970 140022181811392 multiagent.cpp:72] start_time1290
+I20250224 16:27:03.298991 140022181811392 multiagent.cpp:72] start_time1356
+I20250224 16:27:03.299008 140022181811392 multiagent.cpp:72] start_time1440
+I20250224 16:27:03.299038 140022181811392 multiagent.cpp:72] start_time1542
+I20250224 16:27:03.299056 140022181811392 multiagent.cpp:72] start_time1608
+I20250224 16:27:03.299086 140022181811392 multiagent.cpp:72] start_time1671
+I20250224 16:27:03.299545 140022181811392 multiagent.cpp:72] start_time1743
+I20250224 16:27:03.299594 140022181811392 multiagent.cpp:72] start_time1848
+I20250224 16:27:03.299655 140022181811392 multiagent.cpp:72] start_time1920
+I20250224 16:27:03.299687 140022181811392 multiagent.cpp:72] start_time1989
+I20250224 16:27:03.299729 140022181811392 multiagent.cpp:72] start_time2079
+I20250224 16:27:03.299762 140022181811392 multiagent.cpp:72] start_time2142
+I20250224 16:27:03.299781 140022181811392 multiagent.cpp:72] start_time2205
+I20250224 16:27:03.299807 140022181811392 multiagent.cpp:72] start_time2295
+I20250224 16:27:03.299839 140022181811392 multiagent.cpp:72] start_time2370
+I20250224 16:27:03.299864 140022181811392 multiagent.cpp:72] start_time2448
+I20250224 16:27:03.299905 140022181811392 multiagent.cpp:72] start_time2568
+I20250224 16:27:03.299930 140022181811392 multiagent.cpp:72] start_time2634
+I20250224 16:27:03.299961 140022181811392 multiagent.cpp:72] start_time2733
+I20250224 16:27:03.299984 140022181811392 multiagent.cpp:72] start_time2853
+I20250224 16:27:03.300008 140022181811392 multiagent.cpp:72] start_time2943
+I20250224 16:27:03.300031 140022181811392 multiagent.cpp:72] start_time3021
+I20250224 16:27:03.300077 140022181811392 multiagent.cpp:72] start_time3084
+I20250224 16:27:03.300101 140022181811392 multiagent.cpp:72] start_time3168
+I20250224 16:27:03.300136 140022181811392 multiagent.cpp:72] start_time3279
+I20250224 16:27:03.300162 140022181811392 multiagent.cpp:72] start_time3363
+I20250224 16:27:03.300209 140022181811392 multiagent.cpp:72] start_time3459
+I20250224 16:27:03.300229 140022181811392 multiagent.cpp:72] start_time3567
+I20250224 16:27:03.300253 140022181811392 multiagent.cpp:72] start_time3639
+I20250224 16:27:03.300290 140022181811392 multiagent.cpp:72] start_time3717
+I20250224 16:27:03.300322 140022181811392 multiagent.cpp:72] start_time3807
+I20250224 16:27:03.300344 140022181811392 multiagent.cpp:72] start_time3867
+I20250224 16:27:03.300386 140022181811392 multiagent.cpp:72] start_time3957
+I20250224 16:27:03.300423 140022181811392 multiagent.cpp:72] start_time4050
+I20250224 16:27:03.300449 140022181811392 multiagent.cpp:72] start_time4143
+I20250224 16:27:03.300471 140022181811392 multiagent.cpp:72] start_time4230
+I20250224 16:27:03.300504 140022181811392 multiagent.cpp:72] start_time4338
+I20250224 16:27:03.300537 140022181811392 multiagent.cpp:72] start_time4404
+I20250224 16:27:03.300586 140022181811392 multiagent.cpp:72] start_time4470
+I20250224 16:27:03.300618 140022181811392 multiagent.cpp:72] start_time4575
+I20250224 16:27:03.300644 140022181811392 multiagent.cpp:72] start_time4635
+I20250224 16:27:03.300674 140022181811392 multiagent.cpp:72] start_time4713
+I20250224 16:27:03.300693 140022181811392 multiagent.cpp:72] start_time4773
+I20250224 16:27:03.300747 140022181811392 multiagent.cpp:72] start_time4860
+I20250224 16:27:03.300767 140022181811392 multiagent.cpp:72] start_time4974
+I20250224 16:27:03.300795 140022181811392 multiagent.cpp:72] start_time5040
+I20250224 16:27:03.300818 140022181811392 multiagent.cpp:72] start_time5145
+I20250224 16:27:03.300848 140022181811392 multiagent.cpp:72] start_time5214
+I20250224 16:27:03.300893 140022181811392 multiagent.cpp:72] start_time5283
+I20250224 16:27:03.300927 140022181811392 multiagent.cpp:72] start_time5370
+I20250224 16:27:03.300963 140022181811392 multiagent.cpp:72] start_time5475
+I20250224 16:27:03.300988 140022181811392 multiagent.cpp:72] start_time5559
+I20250224 16:27:03.301037 140022181811392 multiagent.cpp:72] start_time5637
+I20250224 16:27:03.301059 140022181811392 multiagent.cpp:72] start_time5751
+I20250224 16:27:03.301094 140022181811392 multiagent.cpp:72] start_time5817
+I20250224 16:27:03.301115 140022181811392 multiagent.cpp:72] start_time5877
+I20250224 16:27:03.301146 140022181811392 multiagent.cpp:72] start_time5940
+I20250224 16:27:03.301188 140022181811392 multiagent.cpp:72] start_time6039
+I20250224 16:27:03.301226 140022181811392 multiagent.cpp:72] start_time6153
+I20250224 16:27:03.301246 140022181811392 multiagent.cpp:72] start_time6270
+I20250224 16:27:03.301264 140022181811392 multiagent.cpp:72] start_time6375
+I20250224 16:27:03.301287 140022181811392 multiagent.cpp:72] start_time6444
+I20250224 16:27:03.301318 140022181811392 multiagent.cpp:72] start_time6519
+I20250224 16:27:03.301368 140022181811392 multiagent.cpp:72] start_time6630
+I20250224 16:27:03.301394 140022181811392 multiagent.cpp:72] start_time6726
+I20250224 16:27:03.301416 140022181811392 multiagent.cpp:72] start_time6795
+I20250224 16:27:03.301448 140022181811392 multiagent.cpp:72] start_time6870
+I20250224 16:27:03.301480 140022181811392 multiagent.cpp:72] start_time6936
+I20250224 16:27:03.301989 140022181811392 multiagent.cpp:72] start_time7041
+I20250224 16:27:03.302034 140022181811392 multiagent.cpp:72] start_time7137
+I20250224 16:27:03.302070 140022181811392 multiagent.cpp:72] start_time7233
+I20250224 16:27:03.302105 140022181811392 multiagent.cpp:72] start_time7338
+I20250224 16:27:03.302150 140022181811392 multiagent.cpp:72] start_time7413
+I20250224 16:27:03.302178 140022181811392 multiagent.cpp:72] start_time7506
+I20250224 16:27:03.302209 140022181811392 multiagent.cpp:72] start_time7605
+I20250224 16:27:03.302235 140022181811392 multiagent.cpp:72] start_time7668
+I20250224 16:27:03.302254 140022181811392 multiagent.cpp:72] start_time7785
+I20250224 16:27:03.302301 140022181811392 multiagent.cpp:72] start_time7854
+I20250224 16:27:03.302334 140022181811392 multiagent.cpp:72] start_time7932
+I20250224 16:27:03.302353 140022181811392 multiagent.cpp:72] start_time8034
+I20250224 16:27:03.302368 140022181811392 multiagent.cpp:72] start_time8145
+I20250224 16:27:03.302414 140022181811392 multiagent.cpp:72] start_time8250
+I20250224 16:27:03.302438 140022181811392 multiagent.cpp:72] start_time8364
+I20250224 16:27:03.302452 140022181811392 multiagent.cpp:72] start_time8481
+I20250224 16:27:03.302486 140022181811392 multiagent.cpp:72] start_time8559
+I20250224 16:27:03.302517 140022181811392 multiagent.cpp:72] start_time8661
+I20250224 16:27:03.302542 140022181811392 multiagent.cpp:139] trajectory generation finished
+I20250224 16:27:03.302555 140022181811392 multiagent.cpp:142] conops 1 trajectory generation use time = 0.004748
+I20250224 16:27:03.302583 140022181811392 multiagent.cpp:144] conops 1 use time = 0.479821
